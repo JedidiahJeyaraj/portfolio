@@ -5,7 +5,7 @@ class Projects extends Component {
 		return (
 			<div>
 				<h1>
-					Resume Page
+					Project Page
 				</h1>
 			</div>
 		);

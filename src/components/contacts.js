@@ -5,7 +5,7 @@ class Contact extends Component {
 		return (
 			<div>
 				<h1>
-					Resume Page
+					Contact Page
 				</h1>
 			</div>
 		);
