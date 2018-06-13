@@ -4,7 +4,7 @@ import {Grid, Cell} from "react-mdl";
 class Landing extends Component {
 	render() {
 		return (
-			<div style={{width: '100%', margin: 'auto'}}>
+			<div style={{width: '100%', margin: 'auto', height:'100%'}}>
 				<Grid className="landing-grid">
 					<Cell col={12}>
 						<img className="avatar-img"
@@ -20,22 +20,28 @@ class Landing extends Component {
 								HTML | CSS | JAVASCRIPT | NODEJS | REACTJS
 							</p>
 							<div className="social-links">
+								<Grid>
+								<Cell col={3} phone={12}>
 								<a href="https://www.google.com/" rel="noopener noreferer" target="_blank">
 									<i className="fa fa-linkedin-square" aria-hidden="true" />
 								</a>
-
+								</Cell>
+								<Cell col={3} phone={12}>
 								<a href="https://www.google.com/" rel="noopener noreferer" target="_blank">
 									<i className="fa fa-github-square" aria-hidden="true" />
 								</a>
-
+								</Cell>
+								<Cell col={3} phone={12}>
 								<a href="https://www.google.com/" rel="noopener noreferer" target="_blank">
 									<i className="fa fa-youtube-square" aria-hidden="true" />
 								</a>	
-
+								</Cell>
+								<Cell col={3} phone={12}>
 								<a href="https://www.google.com/" rel="noopener noreferer" target="_blank">
 									<i className="fa fa-google-plus-square" aria-hidden="true" />
-								</a>																
-
+								</a>	
+								</Cell>															
+								</Grid>
 							</div>
 						</div>
 					</Cell>
