@@ -21,9 +21,9 @@ class Projects extends Component {
 							Some Test React Project
 							</CardText>
 							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
+								<Button ripple colored>Github</Button>
+								<Button ripple colored>CodePen</Button>
+								<Button ripple colored>Live Demo</Button>
 							</CardActions>
 							<CardMenu style={{color:'#fff'}}>
 								<IconButton name="share" />
@@ -38,9 +38,9 @@ class Projects extends Component {
 							Some Test React Project
 							</CardText>
 							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
+								<Button ripple colored>Github</Button>
+								<Button ripple colored>CodePen</Button>
+								<Button ripple colored>Live Demo</Button>
 							</CardActions>
 							<CardMenu style={{color:'#fff'}}>
 								<IconButton name="share" />
