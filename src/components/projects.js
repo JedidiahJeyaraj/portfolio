@@ -9,321 +9,87 @@ class Projects extends Component {
 		};
 	}
 
-	toggleCategories() {
-		if (this.state.activeTab === 0) {
-			return(
-				<Grid style={{padding:'10px'}}>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button ripple colored>Github</Button>
-								<Button ripple colored>CodePen</Button>
-								<Button ripple colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button ripple colored>Github</Button>
-								<Button ripple colored>CodePen</Button>
-								<Button ripple colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-				</Grid>
-				
-			);
-		} else if (this.state.activeTab === 1) {
-			return(
-				<Grid style={{padding:'10px'}}>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>Angular Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>Angular Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>Angular Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>Angular Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-				</Grid>
-			);
-		} else if (this.state.activeTab === 2) {
-			return(
-				<Grid style={{padding:'10px'}}>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>PHP Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>PHP Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>PHP Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>PHP Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-				</Grid>
-			);
-		} else if (this.state.activeTab === 3) {
-			return(
-				<Grid style={{padding:'10px'}}>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
-							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
-							</CardTitle>
-							<CardText>
-							Some Test React Project
-							</CardText>
-							<CardActions border>
-								<Button colored>Github</Button>
-								<Button colored>CodePen</Button>
-								<Button colored>Live Demo</Button>
-							</CardActions>
-							<CardMenu style={{color:'#fff'}}>
-								<IconButton name="share" />
-							</CardMenu>
-						</Card>
-					</Cell>
-				</Grid>
-			);
-		} 
-	}
 
 	render() {
 		return (
-			<div className="category-tabs">
-				<Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab:tabId})} ripple>
-					<Tab>React</Tab>
-					<Tab>Angular</Tab>
-					<Tab>PHP</Tab>
-					<Tab>MongoDB</Tab>
-				</Tabs>
+			<div className="category-tabs" style= {{}}>
+				<Grid style={{padding:'10px', backgroundColor:'white', opacity:'0.8'}} align="middle">
+					<Cell col={12} style={{fontSize:'35px', fontFamily:'Anton', textAlign:'center	'}}>
+						Projects
+					</Cell>
+				</Grid>
+				<Grid style={{padding:'10px'}} align="middle">
+					<Cell col={4}>
+						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
+							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>
+								Web Project #1
+							</CardTitle>
+							<CardText>
+								Karunya Land Documentation
+							</CardText>
+							<CardActions border>
+								<Button ripple colored>Github</Button>
+								{/*<Button ripple colored>CodePen</Button>
+								<Button ripple colored>Live Demo</Button>*/}
+							</CardActions>
+							{/*<CardMenu style={{color:'#fff'}}>
+								<IconButton name="share" />
+							</CardMenu>*/}
+						</Card>
+					</Cell>
+					<Cell col={4}>
+						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
+							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
+							</CardTitle>
+							<CardText>
+							Some Test React Project
+							</CardText>
+							<CardActions border>
+								<Button ripple colored>Github</Button>
+								<Button ripple colored>CodePen</Button>
+								<Button ripple colored>Live Demo</Button>
+							</CardActions>
+							<CardMenu style={{color:'#fff'}}>
+								<IconButton name="share" />
+							</CardMenu>
+						</Card>
+					</Cell>
+					<Cell col={4}>
+						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
+							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
+							</CardTitle>
+							<CardText>
+							Some Test React Project
+							</CardText>
+							<CardActions border>
+								<Button colored>Github</Button>
+								<Button colored>CodePen</Button>
+								<Button colored>Live Demo</Button>
+							</CardActions>
+							<CardMenu style={{color:'#fff'}}>
+								<IconButton name="share" />
+							</CardMenu>
+						</Card>
+					</Cell>
+					<Cell col={4}>
+						<Card shadow={5} style={{ minWidth: '450', margin: '10px'}}>
+							<CardTitle style={{color:'#fff', height:'176px', background:'#000 center / cover'}}>React Project #1
+							</CardTitle>
+							<CardText>
+							Some Test React Project
+							</CardText>
+							<CardActions border>
+								<Button colored>Github</Button>
+								<Button colored>CodePen</Button>
+								<Button colored>Live Demo</Button>
+							</CardActions>
+							<CardMenu style={{color:'#fff'}}>
+								<IconButton name="share" />
+							</CardMenu>
+						</Card>
+					</Cell>
+				</Grid>
 
-				
-					<Grid>
-						<Cell col={12}>
-							<div className="content">{this.toggleCategories()}</div>
-						</Cell>
-					</Grid>
-					
-				
 			</div>
 		);
 	}
